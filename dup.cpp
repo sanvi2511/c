@@ -2,6 +2,7 @@
 using namespace std;
 int main(){
     int a[]={1,1,1,2,3},i;
+    // int 
     int hash[100]={};
     for(i=0;i<5;i++){
         int x=a[i];
