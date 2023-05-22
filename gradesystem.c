@@ -11,15 +11,15 @@ int main()
     printf("Sum of Marks entered : %d \n",s);
     printf("Percentage : %f \n",P);
     
-    if(P<100||P>90)
+    if(P<100&&P>90)
     {
         printf("GRADE A");
     }
-    if(P>80||P<90)
+    if(P>80&&P<90)
     {
         printf("GRADE B");
     }
-    if(P<80||P>60)
+    if(P<80&&P>60)
     {
         printf("GRADE C");
     }
@@ -27,5 +27,5 @@ int main()
     {
         printf("GRADE D");
     }
-    getch();
+    getchar();
 }
